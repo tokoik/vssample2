@@ -239,8 +239,8 @@ int main(int argc, const char * argv[])
         GLfloat s = fabs(x) / l;
         GLfloat t = fabs(y) / l;
         GLfloat u = fabs(z) / l;
-        if (s < t) s = t;
-        if (s < u) s = u;
+        if (s > t) s = t;
+        if (s > u) s = u;
 
         v[k][j][i][0] = x * s;
         v[k][j][i][1] = y * s;
