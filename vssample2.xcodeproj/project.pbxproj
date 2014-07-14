@@ -11,6 +11,7 @@
 		7D6F6A70197405BD00A54A74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7D6F6A6F197405BD00A54A74 /* main.cpp */; };
 		7D6F6A731974068800A54A74 /* simple.frag in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F6A71197405CD00A54A74 /* simple.frag */; };
 		7D6F6A741974068A00A54A74 /* simple.vert in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F6A72197405CD00A54A74 /* simple.vert */; };
+		7D6F6A761974075B00A54A74 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D6F6A751974075B00A54A74 /* README.md */; };
 		7D7AF85F1222C8CC003A0434 /* opengl.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7D7AF85E1222C8CC003A0434 /* opengl.icns */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +23,7 @@
 		7D6F6A6F197405BD00A54A74 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		7D6F6A71197405CD00A54A74 /* simple.frag */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.glsl; path = simple.frag; sourceTree = "<group>"; };
 		7D6F6A72197405CD00A54A74 /* simple.vert */ = {isa = PBXFileReference; fileEncoding = 8; lastKnownFileType = sourcecode.glsl; path = simple.vert; sourceTree = "<group>"; };
+		7D6F6A751974075B00A54A74 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		7D7AF85E1222C8CC003A0434 /* opengl.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = opengl.icns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -40,13 +42,14 @@
 			isa = PBXGroup;
 			children = (
 				7D1E90EF1123E36C005E6C75 /* Products */,
+				7D1E90F11123E36C005E6C75 /* Info.plist */,
+				7D7AF85E1222C8CC003A0434 /* opengl.icns */,
 				7D6F6A6F197405BD00A54A74 /* main.cpp */,
 				7D6F6A6D197405B000A54A74 /* gg.h */,
 				7D6F6A6C197405B000A54A74 /* gg.cpp */,
 				7D6F6A72197405CD00A54A74 /* simple.vert */,
 				7D6F6A71197405CD00A54A74 /* simple.frag */,
-				7D1E90F11123E36C005E6C75 /* Info.plist */,
-				7D7AF85E1222C8CC003A0434 /* opengl.icns */,
+				7D6F6A751974075B00A54A74 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +113,7 @@
 			files = (
 				7D7AF85F1222C8CC003A0434 /* opengl.icns in Resources */,
 				7D6F6A741974068A00A54A74 /* simple.vert in Resources */,
+				7D6F6A761974075B00A54A74 /* README.md in Resources */,
 				7D6F6A731974068800A54A74 /* simple.frag in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
